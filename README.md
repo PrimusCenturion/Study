@@ -1,2 +1,2 @@
-# Algorithms_Study
-For Learning, Analysing and Practicing Algorithms 
+# Study
+Learning, Analysing and Practicing Computer Science 
