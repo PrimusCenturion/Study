@@ -23,9 +23,6 @@ setup:
 run:
 	$(BUILD_DIRS)/$(TARGET_EXEC) 
 
-rerun: clean # THIS IS A TEMORARY COMMAND TO BUILD THE learning.c correctly
-	$(CC) $(SRC_DIRS)/learning.c -o $(BUILD_DIRS)/$(TARGET_EXEC)
-
 clean:
 	rm -f $(OBJS)
 	rm -f $(BUILD_DIRS)/$(TARGET_EXEC)
